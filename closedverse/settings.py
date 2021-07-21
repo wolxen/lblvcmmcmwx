@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'closedverse.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'DB_Name',
-        'USER': 'DB_User',
-        'PASSWORD': 'DB_Password',
-        'HOST': 'DB_Host',
+        'NAME': 'default',
+        'USER': 'BetterClosedvers',
+        'PASSWORD': 'Natale8324',
+        'HOST': 'BetterClosedverse.mysql.pythonanywhere-services.com',
         'PORT': '',
     }
 }
